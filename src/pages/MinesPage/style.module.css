@@ -1,0 +1,29 @@
+.mines{
+    display: grid;
+    gap: 1rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.mine{
+    width: 100px;
+    aspect-ratio: 1/1;
+    background-image: url("/public/image/adolf.png");
+    background-position: center center;
+    background-size: contain;
+
+}
+
+.mine[data-type='mine']{
+    background-color: red;
+    background-image: url("/public/image/mine.png");
+    background-position: center center;
+    background-size: contain;
+}
+
+.mine[data-type='sun']{
+    background-color: green;
+    background-image: url("/public/image/sun.webp");
+    background-position: center center;
+    background-size: contain;
+}

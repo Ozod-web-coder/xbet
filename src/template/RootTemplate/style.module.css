@@ -2,4 +2,6 @@
     min-height: 100vh;
     display: grid;
     grid-template-rows: min-content 1fr;
+    background-image: url("https://cimg.co/news/46281/16210/adobestock-265986185.jpeg");
+    background-size: cover;
 }
